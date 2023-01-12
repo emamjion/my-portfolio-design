@@ -41,7 +41,7 @@ nav ul li{
 }
 .btn{
     display: inline-block;
-    padding: 15px 35px;
+    padding: 18px 36px;
     background-color: var(--popular-clr);
     border: 0;
     outline: none;
@@ -165,4 +165,35 @@ section{
 /* Resume section styles */
 .resume-title{
     text-align: center;
+}
+.resume-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.education-content{
+    margin: 30px 0;
+} 
+.edu-content-title{
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.edu-content-sub-title{
+    color: var(--para-clr);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.edu-content-desc{
+    color: var(--para-clr);
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.resume-btn i{
+    margin-right: 10px;
 }

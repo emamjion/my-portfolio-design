@@ -197,3 +197,48 @@ section{
 .resume-btn i{
     margin-right: 10px;
 }
+/* Contact and form section styles */
+.contact{
+    background-color: var(--bg-clr);
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.contact-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.contact-para{
+    color: #474747;
+    line-height: 25px;
+    width: 562px;
+    margin-bottom: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+}
+.social-icon a img{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+.contact input,textarea{
+    border: 0;
+    margin-bottom: 24px;
+    resize: none;
+    display: block;
+    width: 100%;
+}
+input[type=text],input[type=email]{
+    height: 64px;
+    width: 100%;
+}
+input[type=submit]{
+    width: 150px;
+    text-align: center;
+}
+::placeholder{
+    padding: 18px 30px;
+}
